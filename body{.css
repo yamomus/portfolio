@@ -1,0 +1,131 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body{
+  font-family: 'Space Mono', monospace;
+  background: url("https://sun9-22.userapi.com/impg/dAhKkEkbzvn88ZB1Q5EBiH4u1w4V7ZR4fWdJRQ/UO6CiuEYCfs.jpg?size=1500x1000&quality=96&sign=4936a3c8f2a72808a816e09c3807b987&type=album");
+	background-size: 1920px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.all{
+  width: 1920px;
+  
+}
+
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #fff;
+ } 
+
+.menu-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #121910;
+  color: #fff;
+  
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 50px;
+  font-weight: 75px;
+  height: 60px;
+}
+
+.header-container {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 168px;
+ 
+  
+}
+
+.header-title {
+  margin-top: 270px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 506px;
+  text-align: center;
+  color: #fff;}
+
+.header-subtitle{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 506px;
+  text-align: center;
+  color: #fff;
+}
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+  border: 0;
+  height: 1px;
+  margin: 22px 0 22px 0;box-sizing:
+  content-box;
+  display: block;
+  }
+
+.second-title{
+text-align: center;
+margin-bottom: 10px;
+font-size: 30px;
+line-height: 100px;
+font-weight: 500px;
+}
+
+.header-img{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 370px;
+	  height: 370px;
+	  
+	  background-size: cover;
+	  display: block;
+	  border-radius:50%;
+}
+
+.skils-title{
+  color: #fff ;
+  margin-top: 150px;
+  font-size: 38px;
+  text-align: center;
+}
+.skils{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  color: #fff ;
+  margin-top: 40px;
+  font-size: 30px;
+  
+}
