@@ -20,14 +20,14 @@ html {
 body{
   font-family: 'Space Mono', monospace;
   background: url("https://sun9-22.userapi.com/impg/dAhKkEkbzvn88ZB1Q5EBiH4u1w4V7ZR4fWdJRQ/UO6CiuEYCfs.jpg?size=1500x1000&quality=96&sign=4936a3c8f2a72808a816e09c3807b987&type=album");
-	background-size: 1920px;
+	background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 
 .all{
-  width: 1920px;
+  max-width: 100%;
   
 }
 
@@ -35,6 +35,9 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #fff;
  } 
+.header-navigation{
+  width: 100%;
+}
 
 .menu-main{
   display: flex;
@@ -42,28 +45,28 @@ a {
   justify-content: space-around;
   background-color: #121910;
   color: #fff;
-  
   text-decoration: none;
   font-size: 23px;
   line-height: 50px;
   font-weight: 75px;
   height: 60px;
+  width: 100%;
 }
 
-.header-container {
-  display: flex;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 168px;
+.header-conteiner {
+  width: 100%;
  
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .header-title {
+  
   margin-top: 270px;
   margin-bottom: 10px;
-  margin-left: 200px;
+  
   font-size: 40px;
   line-height: 60px;
   font-weight: 506px;
@@ -71,9 +74,8 @@ a {
   color: #fff;}
 
 .header-subtitle{
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: 10px;
+  
+  margin-bottom: 290px;
   font-size: 20px;
   line-height: 60px;
   font-weight: 506px;
@@ -94,24 +96,23 @@ hr {
   }
 
 .second-title{
-text-align: center;
-color: #fff ;
-margin-bottom: 10px;
-margin-top: 100px;
-font-size: 38px;
-line-height: 100px;
-font-weight: 500px;
+ text-align: center;
+ color: #fff ;
+ margin-bottom: 10px;
+ margin-top: 100px;
+ font-size: 38px;
+ line-height: 100px;
+ font-weight: 500px;
 }
 
 .header-img{
-    margin-top: 150px;
-    margin-left: 50px;
-    width: 370px;
-	  height: 370px;
-	  
-	  background-size: cover;
-	  display: block;
-	  border-radius:50%;
+  margin-top: 150px;
+  margin-left: 50px;
+ width: 370px;
+ height: 370px;
+ background-size: cover;
+ display: block;
+ border-radius:50%;
 }
 
 .skils-title{
@@ -120,15 +121,17 @@ font-weight: 500px;
   font-size: 38px;
   text-align: center;
 }
+
 .skils{
 
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+  
   color: #fff ;
   margin-top: 40px;
   font-size: 38px;
+  
   
 }
 
@@ -145,7 +148,6 @@ font-weight: 500px;
 }
 
 .social{
-  
   text-align: center;
   color: #fff ; 
   margin-top: 40px;
@@ -156,3 +158,35 @@ font-weight: 500px;
   text-align: center; 
   color: #fff ;
 }
+
+
+
+@media screen and (max-width: 1017px){
+  .header-conteiner{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  .header-img{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+  }
+
+  .header-subtitle{
+    margin-bottom: 50px;
+  }
+  .header-img-wrapper{
+    display: block;
+  }
+
+  .skils{
+    display: block;
+    text-align: center;
+    
+    
+  }
+}
+
