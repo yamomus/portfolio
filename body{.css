@@ -19,7 +19,7 @@ html {
 
 body{
   font-family: 'Space Mono', monospace;
-  background: url("https://sun9-22.userapi.com/impg/dAhKkEkbzvn88ZB1Q5EBiH4u1w4V7ZR4fWdJRQ/UO6CiuEYCfs.jpg?size=1500x1000&quality=96&sign=4936a3c8f2a72808a816e09c3807b987&type=album");
+  background: url('https://sun9-22.userapi.com/impg/dAhKkEkbzvn88ZB1Q5EBiH4u1w4V7ZR4fWdJRQ/UO6CiuEYCfs.jpg?size=1500x1000&quality=96&sign=4936a3c8f2a72808a816e09c3807b987&type=album');
 	background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -66,8 +66,8 @@ a {
   
   margin-top: 270px;
   margin-bottom: 10px;
-  
-  font-size: 40px;
+  margin-left: 40px;
+  font-size: 45px;
   line-height: 60px;
   font-weight: 506px;
   text-align: center;
@@ -76,30 +76,11 @@ a {
 
 
 
-.screen{margin-top: 270px;
-    margin-bottom: 10px;
-    
-    font-size: 40px;
-    line-height: 60px;
-    font-weight: 506px;
-    text-align: center;
-    color: #fff;}
+  
 
-.screen span {
-    visibility: hidden;
-}
-.screen span.visible {
-    visibility: visible;
-}
-.screen span.cursor {
-    background: lime;
-    animation: blinking 0.5s step-start infinite;
-}
 
-@keyframes blinking {
-    50% {opacity: 1;}
-    100% {opacity: 0;}
-}
+
+
 .header-subtitle{
   
   margin-bottom: 290px;
@@ -191,6 +172,27 @@ hr {
   color: #fff ;
 }
 
+
+
+.animation{
+  margin-bottom: 50px;
+  font-size: 35px;
+  line-height: 60px;
+  font-weight: 506px;
+  
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1017px){
   .header-conteiner{
     flex-direction: column;
@@ -216,4 +218,7 @@ hr {
     text-align: center; 
   }
 }
+
+
+
 
