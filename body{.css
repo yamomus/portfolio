@@ -234,6 +234,13 @@ hr {
 }
 
 
+.last-work{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 50px;
+}
+
 @media screen and (max-width: 1017px){
   .header-conteiner{
     
