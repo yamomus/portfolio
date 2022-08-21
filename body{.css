@@ -281,3 +281,14 @@ hr {
     text-align: center; 
   }
 }
+
+
+@media screen and (max-width: 430px){
+
+  .header-img{
+    text-align: center;
+    margin-top: 10px;
+    width: 310px;
+    height: 230px; 
+}
+}
